@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>聯絡方式 - 我的個人網站</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">My Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="about.html">自我介紹</a></li>
+        <li><a href="portfolio.html">作品集</a></li>
+        <li><a href="blog.html">網誌</a></li>
+        <li><a href="contact.html" class="active">聯絡方式</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-section">
+    <h1>聯絡我</h1>
+    <p>有任何合作或想法交流，歡迎透過以下方式聯絡我。</p>
+
+    <div class="contact-info">
+      <p><strong>Email：</strong><a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      <p><strong>GitHub：</strong><a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+      <p><strong>LinkedIn：</strong><a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </div>
+
+    <h2>或直接留言：</h2>
+    <form action="https://formspree.io/f/你的ID" method="POST" class="contact-form">
+      <label for="name">姓名</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">電子信箱</label>
+      <input type="email" id="email" name="_replyto" required />
+
+      <label for="message">留言內容</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="btn">送出</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 My Portfolio | 建立者：[你的名字]</p>
+  </footer>
+</body>
+</html>
 
